@@ -69,7 +69,7 @@ const Advantages = () => {
               </p>
             </div>
 
-            <div className={`grid grid-cols-1 md:grid-cols-2 gap-x-2 gap-y-10 ${windowWidth >= 1440 ? 'gap-x-12' : ''}`}>
+            <div className={`grid grid-cols-1 md:grid-cols-2 gap-x-0 gap-y-10 ${windowWidth >= 1440 ? 'gap-x-12' : ''}`}>
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 mt-[3.5px]">
                   <div className="w-6 h-6">
@@ -79,7 +79,7 @@ const Advantages = () => {
                   </div>
                 </div>
                 <div style={getTextBlockStyle()}>
-                  <h3 className="text-[22px] font-bold mb-2 lg:text-nowrap">Инновационные технологии</h3>
+                  <h3 className="text-[22px] font-bold mb-2">Инновационные технологии</h3>
                   <p className="text-[20px]">Используем передовые методы проектирования и производства.</p>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Advantages = () => {
                   </div>
                 </div>
                 <div style={getTextBlockStyle()}>
-                  <h3 className="text-[22px] font-bold mb-2 lg:text-nowrap">Высочайшее качество</h3>
+                  <h3 className="text-[22px] font-bold mb-2 whitespace-nowrap">Высочайшее качество</h3>
                   <p className="text-[20px]">Многоуровневый контроль качества на каждом этапе позволяет нам предлагать продукцию высочайшего качества.</p>
                 </div>
               </div>
@@ -107,7 +107,7 @@ const Advantages = () => {
                   </div>
                 </div>
                 <div style={getTextBlockStyle()}>
-                  <h3 className="text-[22px] font-bold mb-2 lg:text-nowrap">Гибкий подход</h3>
+                  <h3 className="text-[22px] font-bold mb-2 whitespace-nowrap">Гибкий подход</h3>
                   <p className="text-[20px]">Индивидуальная работа с клиентами и кастомизация продукции.</p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Advantages = () => {
                   </div>
                 </div>
                 <div style={getTextBlockStyle()}>
-                  <h3 className="text-[22px] font-bold mb-2 lg:text-nowrap">Глобальное присутствие</h3>
+                  <h3 className="text-[22px] font-bold mb-2 whitespace-nowrap">Глобальное присутствие</h3>
                   <p className="text-[20px]">Более 1000 парнеров по всему миру.</p>
                 </div>
               </div>
