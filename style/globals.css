@@ -1,0 +1,41 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Отключение Tailwind классов */
+.h-full {
+  height: auto !important;
+}
+
+.flex {
+  display: block !important;
+}
+
+.t181__wrapper {
+  text-align: center;
+}
+
+.t-btnwrapper {
+  display: inline-block;
+}
+
+.t181__button-wrapper {
+  display: flex;
+}
+
+/* Анимации для плавающей кнопки */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.group:hover .group-hover\:block {
+  animation: fadeIn 0.2s ease-out;
+}

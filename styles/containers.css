@@ -1,0 +1,36 @@
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+.centered-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Общие стили для заголовков */
+.section-title {
+  font-size: 33px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+/* Общие стили для основного текста */
+.section-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Стили для текста в блоках преимуществ и исследований */
+.features-text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Стили для текста в кружочках продуктов */
+.product-circle-text {
+  font-size: 20px;
+  line-height: 1.5;
+} 
