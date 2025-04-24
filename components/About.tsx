@@ -8,13 +8,14 @@ const About = () => {
         <div className="flex flex-col 2xl:flex-row gap-[10px] items-start max-w-[1920px] mx-auto justify-between">
           {/* Левая колонка с изображением */}
           <div className="w-full 2xl:w-[1014px]">
-            <div className="w-full h-[760px] relative">
+            <div className="w-full h-[300px] md:h-[500px] lg:h-[760px] relative">
               <Image
                 src="/assets/about-company-bg.jpg"
                 alt="About company background"
                 fill
                 style={{ objectFit: 'cover' }}
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1014px"
               />
             </div>
           </div>

@@ -58,7 +58,7 @@ const FAQ = () => {
                     {item.question}
                   </span>
                   <svg
-                    className={`w-[40px] h-[40px] transition-transform ${
+                    className={`min-w-[40px] h-[40px] transition-transform ${
                       openId === item.id ? 'rotate-45' : ''
                     }`}
                     viewBox="0 0 40 40"
