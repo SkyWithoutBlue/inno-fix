@@ -37,6 +37,13 @@ const Partners = () => {
         height: 'auto'
       }
     },
+    {
+        src: "/partnerLogos/buhi.png",
+        style: {
+          width: '150px',
+          height: 'auto'
+        }
+      },
     // Second row
     {
       src: "/partnerLogos/himile.png",
@@ -45,13 +52,7 @@ const Partners = () => {
         height: 'auto'
       }
     },
-    {
-      src: "/partnerLogos/ADAYO.png",
-      style: {
-        width: '250px',
-        height: 'auto'
-      }
-    },
+
     {
         src: "/partnerLogos/pirelli.png",
         style: {
